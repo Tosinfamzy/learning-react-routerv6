@@ -11,11 +11,11 @@ npm run dev
 
 ## Topics to learn
 
-- Basic routing (Path, Element, BrowserRouter, Link, NavLinks)
-- Route Params
-- Nested Routing
-- Index routes
-- Relative links
+- Basic routing (Path, Element, BrowserRouter, Link, NavLinks) :done
+- Route Params :done
+- Nested Routing :done
+- Index routes :done
+- Relative links: done
 - Search Params(useSearchParams)
 - 404 Pages
 - createBrowserRouter

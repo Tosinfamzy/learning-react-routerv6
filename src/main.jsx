@@ -12,6 +12,7 @@ import Dashboard from './pages/Host/Dashboard';
 import Reviews from './pages/Host/Reviews';
 import Income from './pages/Host/Income';
 import HostLayout from './components/HostLayout';
+import HostVans from './pages/Host/HostVans';
 
 ReactDOM.createRoot(document.getElementById('root')).render(
 	<BrowserRouter>
@@ -25,6 +26,7 @@ ReactDOM.createRoot(document.getElementById('root')).render(
 					<Route index element={<Dashboard />} />
 					<Route path='income' element={<Income />} />
 					<Route path='reviews' element={<Reviews />} />
+					<Route path='vans' element={<HostVans />} />
 				</Route>
 			</Route>
 		</Routes>
